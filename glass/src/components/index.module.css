@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .model {
+    display: flex;
+    position: absolute;
+    top: 2%;
+   justify-content: center;
+    left: 10%;
+  }
+  .model img{
+    width: 40%;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+ 
+  }
+  
+  .glassesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 25%;
+    overflow: hidden;
+   
+  }
+  
+  .glassItem {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+   
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .selectedImage {
+    width: 20%;
+    height: auto;
+    max-width: 400px;
+    position: absolute;
+    top: 14%;
+    left: 25.5%;
+    opacity: 0.5;
+    overflow: hidden;
+  }
+  
+  .info {
+    margin-top: 10px;
+    position: absolute;
+    top: 35%;
+    text-align: left;
+    width: 30%;
+    left: 20%;
+    overflow: hidden;
+  }
+  
+  .info h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: blue;
+  }
+  
+  .info p {
+    margin: 5px 0;
+  }
+  
